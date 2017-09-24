@@ -4,6 +4,8 @@
 
 ## Setup
 
+Note: this section is incomplete.
+
 ```
 # Install dependencies
 npm install
