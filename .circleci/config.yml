@@ -27,12 +27,13 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
+
       - deploy:
-        command: |
-          if [ "${CIRCLE_BRANCH}" == "master" ]; then
-            # deploy bot
-            ./scripts/deploy.sh
-          fi
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              # deploy bot
+              ./scripts/deploy.sh
+            fi
 
       - save_cache:
           paths:
