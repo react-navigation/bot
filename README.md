@@ -1,6 +1,8 @@
 # react-navigation-bot
 
-> a GitHub App built with [probot](https://github.com/probot/probot) that helps maintain the [react-navigation](https://github.com/react-community/react-navigation) repo.
+[![CircleCI](https://circleci.com/gh/matthamil/react-navigation-bot/tree/master.svg?style=svg)](https://circleci.com/gh/matthamil/react-navigation-bot/tree/master)
+
+A GitHub App built with [probot](https://github.com/probot/probot) that helps maintain the [react-navigation](https://github.com/react-community/react-navigation) repo.
 
 ## Setup
 
