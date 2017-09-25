@@ -21,7 +21,7 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               # deploy bot
-              ./scripts/deploy.sh
+              bash ./scripts/deploy.sh
             fi
       - save_cache:
           paths:
