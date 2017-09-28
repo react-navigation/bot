@@ -6,14 +6,6 @@ A GitHub App built with [probot](https://github.com/probot/probot) that helps ma
 
 ## Setup
 
-```
-# Install dependencies
-npm install
-
-# Run the bot
-npm start
-```
-
 [localtunnel](https://github.com/localtunnel/localtunnel) is recommended to run this bot locally. [Register a new GitHub App](https://github.com/settings/apps) and set the homepage URL to https://example.com (or anything for development), set the Webhook URL to your localtunnel URL, and add a webhook secret called `development`. Create a new GitHub repo and add the App to the repo. Add the localtunnel URL as a Webhook URL to the repo. 
 
 Create a .env file in the root directory with the following:
@@ -25,6 +17,16 @@ WEBHOOK_SECRET=development # or your secret
 
 # Uncomment this to get verbose logging
 # LOG_LEVEL=trace # or `info` to show less
+```
+
+Run the bot.
+
+```
+# Install dependencies
+npm install
+
+# Run the bot
+npm start
 ```
 
 See [docs/deploy.md](docs/deploy.md) if you would like to run your own instance of this app.
