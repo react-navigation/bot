@@ -12,7 +12,7 @@ Create a .env file in the root directory with the following:
 
 ```shell
 # The ID of your GitHub App
-APP_ID=5413
+APP_ID=1000 # your app ID
 WEBHOOK_SECRET=development # or your secret
 
 # Uncomment this to get verbose logging
