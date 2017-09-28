@@ -11,7 +11,6 @@ A GitHub App built with [probot](https://github.com/probot/probot) that helps ma
 Create a .env file in the root directory with the following:
 
 ```shell
-# The ID of your GitHub App
 APP_ID=1000 # your app ID
 WEBHOOK_SECRET=development # or your secret
 
